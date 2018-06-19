@@ -22,7 +22,9 @@ RUN pip install --no-cache-dir \
     seaborn \
     emcee \
     corner \
-    futures
+    futures \
+    sklearn \
+    pip install git+https://github.com/llondon6/positive.git
 
 # Clone non installable python packages
 RUN cd /opt \
