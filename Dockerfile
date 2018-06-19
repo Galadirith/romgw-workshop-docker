@@ -21,7 +21,8 @@ RUN pip install --no-cache-dir \
     pandas \
     seaborn \
     emcee \
-    corner
+    corner \
+    futures
 
 # Clone non installable python packages
 RUN cd /opt \
