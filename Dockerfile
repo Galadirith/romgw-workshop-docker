@@ -24,7 +24,9 @@ RUN pip install --no-cache-dir \
     corner \
     futures \
     sklearn \
-    git+https://github.com/llondon6/positive.git
+    git+https://github.com/llondon6/positive.git \
+    tensorflow \
+    keras
 
 # Clone non installable python packages
 RUN cd /opt \
